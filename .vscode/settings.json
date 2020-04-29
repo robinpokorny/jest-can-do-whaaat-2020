@@ -1,0 +1,6 @@
+{
+  "workbench.colorTheme": "Quiet Light",
+  "jest.enableInlineErrorMessages": true,
+  "jest.debugCodeLens.showWhenTestStateIn": [],
+  "window.zoomLevel": 3
+}
