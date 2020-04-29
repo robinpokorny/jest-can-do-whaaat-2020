@@ -1,0 +1,13 @@
+{
+  "name": "jest-can-do-whaaat-2020",
+  "version": "1.0.0",
+  "author": "Robin Pokorny <me@robinpokorny.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "25.5.0",
+    "prettier": "2.0.5",
+    "snapshot-diff": "0.7.0"
+  }
+}
