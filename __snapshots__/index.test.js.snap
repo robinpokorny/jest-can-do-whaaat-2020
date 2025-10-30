@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`snapshots snapshot 1`] = `
+{
+  "bool": true,
+  "date": 2025-10-30T13:40:02.592Z,
+  "func": [Function],
+  "map": Map {
+    "position1" => "workman",
+    "position2" => "stockkeeper",
+  },
+  "name": "Ferdinand Vanek",
+  "null": null,
+  "number": 1975,
+  "promise": Promise {},
+  "set": Set {
+    "think",
+    "write",
+    "snitch",
+  },
+  "string": "Hello, full",
+  "symbol": Symbol(brewery),
+  "undefined": undefined,
+  Symbol(brewmaster): "Next beer!",
+}
+`;

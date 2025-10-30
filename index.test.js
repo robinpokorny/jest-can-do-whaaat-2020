@@ -1,8 +1,8 @@
 describe.skip("running Jest", () => {
-  // $ yarn jest
-  // $ yarn jest ind
-  // $ yarn jest --watch
-  // $ yarn jest --watchAll
+  // $ pnpm jest
+  // $ pnpm jest ind
+  // $ pnpm jest --watch
+  // $ pnpm jest --watchAll
   // VS Code
 
   test("should pass", () => {
@@ -73,13 +73,9 @@ describe("snapshots", () => {
     });
   });
 
-  test.skip("snapshot", () => {
-    // basic, named, inline
+  test("snapshot", () => {
+    expect(full).toMatchSnapshot();
   });
-
-  // What if we change a property?
-  // What if we add a property?
-  // What if a property is Date?
 });
 
 describe("snapshot seriasers", () => {
@@ -168,7 +164,7 @@ describe.skip("table testing", () => {
 });
 
 describe("promises", () => {
-  test("fulfillment", () => {
+  test.skip("fulfillment", () => {
     Promise.resolve(100).then((n) => {
       expect(n).toBe(7); // !
     });
